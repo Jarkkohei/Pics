@@ -6,6 +6,10 @@ void main() {
       appBar: AppBar(
         title: Text('Pics'),
       ),
+      floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          elevation: 10.0,
+          onPressed: () {}),
     ),
   );
 
